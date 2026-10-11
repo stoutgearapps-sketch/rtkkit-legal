@@ -15,9 +15,9 @@ The pages under `/privacy/`, `/terms/`, and `/support/` keep that text. `app-con
 
 Recommended size is 780×1688 PNG (a tall phone). The frames use that aspect ratio and `object-fit: cover`, so another tall screenshot still fills the phone.
 
-`assets/plot-plan-sample.png` is a fictional sample plot plan. Swap that file to change the sheet on the page.
+`assets/plot-plan-sample.png` is a render of the fictional sample plot plan (StoutGear-Sample-PlotPlan.pdf). Swap that file to change the sheet on the page.
 
-The app icon in stoutgearapps-sketch/rtkkit (`assets/images/icon.png`) was not reachable when this page was built, so the header is an RTK Kit wordmark. The tab icon is `assets/favicon.svg`. Replace `assets/favicon.svg`, `assets/favicon-32.png`, `assets/apple-touch-icon.png`, and `favicon.ico` to use the real app icon.
+The header mark and favicon use the Stone app icon (`assets/app-icon.png`, from `variant-2-stone-512.png`). `assets/favicon-32.png`, `assets/apple-touch-icon.png`, and `favicon.ico` are the same icon at tab sizes.
 
 ## Store badges
 

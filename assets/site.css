@@ -94,7 +94,12 @@ a { color: var(--orange-soft); }
   padding: 0.45rem 0;
 }
 
-.brand-mark { width: 1.55rem; height: 1.55rem; display: block; }
+.brand-mark {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  border-radius: 0.45rem;
+}
 
 .site-nav {
   display: flex;
@@ -397,19 +402,26 @@ a { color: var(--orange-soft); }
   align-items: center;
 }
 
+.plan-sheet { margin: 0; min-width: 0; }
+
 .plan-copy p { margin: 0 0 0.8rem; color: var(--muted); }
 .plan-copy p:last-child { margin-bottom: 0; }
 
 .plan-frame {
-  background: #f4f1ea;
-  padding: 0.65rem;
+  background: #fff;
+  padding: 0.45rem;
   border-radius: 0.8rem;
   box-shadow: 0 22px 50px rgba(0, 0, 0, 0.35);
-  max-width: 26rem;
   margin-inline: auto;
+  overflow-x: auto;
 }
 
-.plan-frame img { display: block; width: 100%; height: auto; }
+.plan-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
 
 .plan-caption {
   margin: 0.7rem 0 0;
@@ -536,8 +548,12 @@ a { color: var(--orange-soft); }
   }
   .compare { grid-template-columns: 1fr 1fr; }
   .job-grid { grid-template-columns: 1fr 1fr 1fr; }
-  .plan-layout { grid-template-columns: 1.05fr 0.95fr; gap: 2.5rem; }
-  .plan-frame { margin-inline: 0 0 auto; }
+  .plan-layout {
+    grid-template-columns: minmax(16rem, 20rem) minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+  }
+  .plan-frame { margin-inline: 0; }
 }
 
 @media (min-width: 960px) {
