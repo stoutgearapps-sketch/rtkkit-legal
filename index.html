@@ -3,32 +3,356 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RTKKit — Stout Gear LLC</title>
-<style>
-:root { color-scheme: light; }
-body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; color: #111; max-width: 40rem; margin: 2rem auto; padding: 0 1.25rem 4rem; }
-h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
-h2 { font-size: 1.15rem; margin: 1.75rem 0 .5rem; }
-p, li { font-size: 1rem; }
-ul { padding-left: 1.2rem; }
-.meta { color: #444; margin: 0 0 1.5rem; }
-nav { font-size: .95rem; margin: 0 0 1.75rem; }
-nav a { color: #0b57d0; }
-a { color: #0b57d0; }
-footer { margin-top: 2.5rem; color: #444; font-size: .95rem; }
-</style>
+<title>RTK Kit — GPS stakeout and cut/fill</title>
+<meta name="description" content="Stake layout from a plot plan and check cut and fill on site. RTK Kit is a free field app for contractors. No account. Jobs stay on the device.">
+<meta name="theme-color" content="#141618">
+<meta name="color-scheme" content="dark">
+<meta name="apple-mobile-web-app-title" content="RTK Kit">
+<link rel="canonical" href="https://rtkkit.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RTK Kit">
+<meta property="og:title" content="RTK Kit — GPS stakeout and cut/fill">
+<meta property="og:description" content="Stake layout from a plot plan and check cut and fill on site. A field app for contractors from Stout Gear LLC.">
+<meta property="og:url" content="https://rtkkit.com/">
+<meta property="og:image" content="https://rtkkit.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RTK Kit by Stout Gear. GPS stakeout and cut/fill.">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RTK Kit — GPS stakeout and cut/fill">
+<meta name="twitter:description" content="Stake layout from a plot plan and check cut and fill on site. A field app for contractors from Stout Gear LLC.">
+<meta name="twitter:image" content="https://rtkkit.com/assets/og.png">
+<meta name="twitter:image:alt" content="RTK Kit by Stout Gear. GPS stakeout and cut/fill.">
+<link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "RTK Kit",
+  "operatingSystem": "Android, iOS",
+  "applicationCategory": "BusinessApplication",
+  "url": "https://rtkkit.com/",
+  "description": "Field tool for contractors. Stake layout from a plot plan, capture points, and check cut and fill.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Stout Gear LLC",
+    "email": "support@rtkkit.com",
+    "url": "https://rtkkit.com/"
+  }
+}
+</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./">
+      <img class="brand-mark" src="assets/app-icon.png" width="512" height="512" alt="">
+      <span>RTK Kit</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="support/">Support</a>
+    </nav>
+  </div>
+</header>
 
-<h1>RTKKit</h1>
-<p class="meta">Stout Gear LLC · Oklahoma, USA</p>
-<nav>
-  <a href="privacy/">Privacy Policy</a> ·
-  <a href="terms/">Terms of Use</a> ·
-  <a href="support/">Support</a>
-</nav>
-<p>RTKKit is a contractor layout, machine-guidance, and field-stake helper. It is not a survey of record.</p>
-<p>Support: <a href="mailto:support@rtkkit.com">support@rtkkit.com</a></p>
+<main id="main">
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">GPS stakeout and cut/fill</p>
+        <h1>Stake layout.<br>Check cut and fill.</h1>
+        <p class="lede">RTK Kit is a field tool for contractors. Use it to stake layout from a plot plan, capture points, and check cut and fill while you dig.</p>
+        <p class="support-line">It works with your phone’s built-in GPS right away. A live readout shows the current horizontal and vertical accuracy, so you always know what you’re working with.</p>
+      </div>
+      <div class="hero-visual">
+        <div class="device">
+          <div class="device-screen">
+            <img src="assets/screens/machine-guidance.png" width="780" height="1688" alt="Preview of the Machine Guidance screen: a large cut readout, target and current elevation, and the live horizontal and vertical accuracy." fetchpriority="high">
+          </div>
+        </div>
+      </div>
+      <div class="hero-actions">
+        <!--
+          STORE LINKS
+          When the listings are live, replace these two hrefs.
+          App Store example: https://apps.apple.com/app/id0000000000
+          Google Play example: https://play.google.com/store/apps/details?id=com.example.rtkkit
+          They currently point at #coming-soon on this page.
+        -->
+        <div class="store-badges">
+          <a class="store-badge" id="store-link-app-store" href="#coming-soon">
+            <span class="store-kicker">Coming soon</span>
+            <span class="store-name">App Store</span>
+          </a>
+          <a class="store-badge" id="store-link-google-play" href="#coming-soon">
+            <span class="store-kicker">Coming soon</span>
+            <span class="store-name">Google Play</span>
+          </a>
+        </div>
+        <p id="coming-soon" class="coming-note">The App Store and Google Play listings are on the way.</p>
+        <p class="guard prose"><a href="#disclaimer">Not a survey. Not machine control.</a></p>
+      </div>
+    </div>
+  </section>
 
+  <div class="band">
+    <ul class="facts band-inner">
+      <li><strong>Free at launch</strong><span>No in-app purchases.</span></li>
+      <li><strong>No account</strong><span>Open it and go to work.</span></li>
+      <li><strong>On the device</strong><span>Jobs stay on your phone.</span></li>
+      <li><strong>While you use it</strong><span>Location only when the app is open.</span></li>
+    </ul>
+  </div>
+
+  <section class="section" id="features" aria-labelledby="features-title">
+    <div class="section-inner">
+      <p class="eyebrow">The work</p>
+      <h2 id="features-title">What you can do</h2>
+      <ul class="feature-grid">
+        <li>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 17h9"/>
+              <path d="M5 17V8"/>
+              <path d="M5 14h3v3"/>
+              <circle cx="5" cy="17" r="1.3" fill="currentColor" stroke="none"/>
+              <circle cx="14" cy="17" r="1.3" fill="currentColor" stroke="none"/>
+              <circle cx="5" cy="8" r="1.3" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <h3>Layout</h3>
+          <p>Capture points, build surfaces from those points, square off from a baseline, and set up grade paths for trenches and swales.</p>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7 3.5h7l4 4V20.5H7z"/>
+              <path d="M14 3.5v4h4"/>
+              <path d="M9.5 12.5h6M9.5 16h6"/>
+            </svg>
+          </div>
+          <h3>Plan Import</h3>
+          <p>Bring in a PDF, image, or KMZ plot plan, tie it to control points, and stake right against the drawing.</p>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M8 8.5 12 4.5l4 4"/>
+              <path d="M12 4.5v6"/>
+              <path d="M8 15.5 12 19.5l4-4"/>
+              <path d="M12 19.5v-6"/>
+              <path d="M5 12h14"/>
+            </svg>
+          </div>
+          <h3>Cut/fill readout</h3>
+          <p>A large display shows how far you are above or below target. Set a target by hand, or lock it to a surface or grade path.</p>
+          <p class="note">That screen is called Machine Guidance. It shows numbers only and does not control equipment.</p>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round">
+              <circle cx="12" cy="12" r="3.5"/>
+              <path d="M12 3v3.5M12 17.5V21M3 12h3.5M17.5 12H21"/>
+            </svg>
+          </div>
+          <h3>Site localization</h3>
+          <p>Line your live position up with the job’s control.</p>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 4v9"/>
+              <path d="M8.5 7.5 12 4l3.5 3.5"/>
+              <path d="M5 13.5V19h14v-5.5"/>
+            </svg>
+          </div>
+          <h3>Export</h3>
+          <p>Share points and surfaces as KML, or move a whole job to another device as a project bundle.</p>
+        </li>
+        <li>
+          <div class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 8h16v8H4z"/>
+              <path d="M8 8v3M12 8v4.5M16 8v3"/>
+            </svg>
+          </div>
+          <h3>Feet or meters</h3>
+          <p>Work in the units the job uses.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="screens" aria-labelledby="screens-title">
+    <div class="section-inner">
+      <p class="eyebrow">Screens</p>
+      <h2 id="screens-title">On the phone</h2>
+      <p class="section-intro">Layout, a plot plan, the cut/fill readout, and a surface built from points.</p>
+      <p class="swipe-hint">Swipe sideways for more screens.</p>
+      <!--
+        Screenshot files live in /assets/screens/. Replace the PNGs in place;
+        keep these filenames. See README.md.
+      -->
+      <ul class="gallery">
+        <li>
+          <figure>
+            <div class="device">
+              <div class="device-screen">
+                <img src="assets/screens/layout.png" width="780" height="1688" alt="" loading="lazy">
+              </div>
+            </div>
+            <figcaption>
+              <strong>Layout</strong>
+              <span>Points, a baseline, and square-off, with the live accuracy readout.</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div class="device">
+              <div class="device-screen">
+                <img src="assets/screens/plan-import.png" width="780" height="1688" alt="" loading="lazy">
+              </div>
+            </div>
+            <figcaption>
+              <strong>Plan Import</strong>
+              <span>A plot plan tied to control, ready to stake against the drawing.</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div class="device">
+              <div class="device-screen">
+                <img src="assets/screens/machine-guidance.png" width="780" height="1688" alt="" loading="lazy">
+              </div>
+            </div>
+            <figcaption>
+              <strong>Cut/fill readout</strong>
+              <span>Machine Guidance shows how far you are above or below target.</span>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div class="device">
+              <div class="device-screen">
+                <img src="assets/screens/surface.png" width="780" height="1688" alt="" loading="lazy">
+              </div>
+            </div>
+            <figcaption>
+              <strong>Surface</strong>
+              <span>A surface built from captured points.</span>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+      <p class="preview-note">Preview layouts. Final app screens will replace these.</p>
+    </div>
+  </section>
+
+  <section class="section" id="plan" aria-labelledby="plan-title">
+    <div class="section-inner plan-layout">
+      <div class="plan-copy">
+        <p class="eyebrow">Plan Import</p>
+        <h2 id="plan-title">Stake against the drawing</h2>
+        <p>Bring in a PDF, image, or KMZ plot plan, tie it to control points, and stake right against the drawing.</p>
+        <p>The sheet is a sample plot plan for a fictional site.</p>
+      </div>
+      <figure class="plan-sheet">
+        <div class="plan-frame">
+          <img src="assets/plot-plan-sample.png" width="1700" height="2200" alt="Sample plot plan for a fictional site, showing the lot, house, driveway, and control points.">
+        </div>
+        <figcaption class="plan-caption">Sample plot plan, fictional site.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="how-it-works" aria-labelledby="how-title">
+    <div class="section-inner">
+      <p class="eyebrow">How it works</p>
+      <h2 id="how-title">Phone GPS and an RTK receiver</h2>
+      <div class="compare">
+        <article>
+          <p class="kicker">Ready now</p>
+          <h3>Built-in GPS</h3>
+          <p>RTK Kit works with the phone’s built-in GPS right away. A live readout shows the current horizontal and vertical accuracy, so you always know what you’re working with. Phone GPS runs at lower precision than an external RTK receiver, so it is best for rough layout, getting close, and checking progress.</p>
+        </article>
+        <article>
+          <p class="kicker">Higher precision</p>
+          <h3>External RTK receiver</h3>
+          <p>Pairing an external RTK GNSS receiver improves precision.</p>
+          <dl class="platforms">
+            <div>
+              <dt>Android</dt>
+              <dd>Bluetooth and TCP receivers are supported.</dd>
+            </div>
+            <div>
+              <dt>iPhone</dt>
+              <dd>External receiver support is coming in an update.</dd>
+            </div>
+          </dl>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="job-site" aria-labelledby="job-title">
+    <div class="section-inner">
+      <p class="eyebrow">On the device</p>
+      <h2 id="job-title">Built for the job site</h2>
+      <ul class="job-grid">
+        <li class="plain-card">
+          <h3>No sign-up</h3>
+          <p>No account and no sign-up. Open it and go to work.</p>
+        </li>
+        <li class="plain-card">
+          <h3>Your jobs stay put</h3>
+          <p>Your jobs are saved on your phone. Nothing goes to us unless you choose to export or email it.</p>
+        </li>
+        <li class="plain-card">
+          <h3>Location while open</h3>
+          <p>Location is used only while the app is open.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="disclaimer" aria-labelledby="disclaimer-title">
+    <div class="section-inner">
+      <p class="eyebrow">Limits</p>
+      <h2 id="disclaimer-title">Good to know</h2>
+      <div class="disclaimer prose">
+        <p>RTK Kit is a layout and grade-checking aid. It is not a survey, it does not set legal property lines, and it does not control equipment. Accuracy depends on your device, sky view, and control. Elevation lookups from public data sources are estimates. Check critical work with a method that fits your job before you cut, fill, or pour.</p>
+        <p>Questions or feedback: <a href="mailto:support@rtkkit.com">support@rtkkit.com</a>. Read the <a href="terms/">Terms of Use</a>.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <img class="footer-logo" src="assets/stout-gear-logo.png" width="678" height="240" alt="Stout Gear">
+    <p class="footer-copy">&copy; 2026 Stout Gear LLC</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms</a>
+      <a href="support/">Support</a>
+    </nav>
+    <p><a href="mailto:support@rtkkit.com">support@rtkkit.com</a></p>
+  </div>
+</footer>
 </body>
 </html>
