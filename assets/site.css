@@ -246,7 +246,7 @@ a { color: var(--orange-soft); }
   border-radius: 1.75rem;
   overflow: hidden;
   background: var(--bg);
-  aspect-ratio: 780 / 1688;
+  aspect-ratio: 780 / 1695;
 }
 
 .device-screen img {
@@ -576,6 +576,7 @@ a { color: var(--orange-soft); }
 @media (min-width: 1100px) {
   .feature-grid { grid-template-columns: 1fr 1fr 1fr; }
   .gallery { grid-template-columns: repeat(4, 1fr); }
+  .gallery-tablet { grid-template-columns: repeat(5, 1fr); }
 }
 
 @media (max-width: 639px) {
@@ -615,3 +616,8 @@ a { color: var(--orange-soft); }
 #job-site,
 #disclaimer,
 #coming-soon { scroll-margin-top: 5.5rem; }
+
+/* Tablet gallery */
+.device.tablet { border-radius: 1.6rem; }
+.device.tablet .device-screen { aspect-ratio: 800 / 1280; border-radius: 1.1rem; }
+.gallery-tablet figcaption { text-align: center; }
