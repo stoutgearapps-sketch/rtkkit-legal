@@ -621,3 +621,6 @@ a { color: var(--orange-soft); }
 .device.tablet { border-radius: 1.6rem; }
 .device.tablet .device-screen { aspect-ratio: 800 / 1280; border-radius: 1.1rem; }
 .gallery-tablet figcaption { text-align: center; }
+
+/* Hero tablet mockup (image includes its own device frame) */
+.hero-tablet { display: block; width: min(373px, 88vw); height: auto; }
