@@ -8,10 +8,8 @@ The pages under `/privacy/`, `/terms/`, and `/support/` keep that text. `app-con
 
 `index.html` is the marketing page. Screenshot files are illustrated stand-ins until final app captures are ready. Replace the PNGs in place and keep these filenames:
 
-- `assets/screens/layout.png` — Layout: captured points, a baseline, square-off, and the accuracy readout
-- `assets/screens/plan-import.png` — Plan Import with a plot plan tied to control
-- `assets/screens/machine-guidance.png` — Machine Guidance cut/fill readout. The hero uses this file too.
-- `assets/screens/surface.png` — A surface built from points
+- `assets/screens/*.webp` — iPhone screenshots (780×1695 WebP, from the App Store set). The hero uses `machine-guidance.webp`.
+- `assets/screens/tablet/*.webp` — Android tablet screenshots (800×1280 WebP).
 
 Recommended size is 780×1688 PNG (a tall phone). The frames use that aspect ratio and `object-fit: cover`, so another tall screenshot still fills the phone.
 
