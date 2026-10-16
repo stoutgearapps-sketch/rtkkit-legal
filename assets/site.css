@@ -623,4 +623,4 @@ a { color: var(--orange-soft); }
 .gallery-tablet figcaption { text-align: center; }
 
 /* Hero tablet mockup (image includes its own device frame) */
-.hero-tablet { display: block; width: min(373px, 88vw); height: auto; }
+.hero-tablet { display: block; width: min(373px, 88vw); height: auto; filter: drop-shadow(0 24px 40px rgba(0, 0, 0, 0.45)); }
