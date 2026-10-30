@@ -82,22 +82,26 @@
       <div class="hero-actions">
         <!--
           STORE LINKS
-          When the listings are live, replace these two hrefs.
-          Google Play example: https://play.google.com/store/apps/details?id=com.example.rtkkit
-          App Store example: https://apps.apple.com/app/id0000000000
-          They currently point at #coming-soon on this page.
+          Google Play is live (US): https://play.google.com/store/apps/details?id=app.replit.rtkkit
+          Official badge asset: assets/google-play-badge.png
+            (from https://play.google.com/intl/en_us/badges/ — "Get it on Google Play")
+          App Store still pending review — keep #store-link-app-store on #coming-soon until live.
         -->
         <div class="store-badges">
-          <a class="store-badge" id="store-link-google-play" href="#coming-soon">
-            <span class="store-kicker">Coming soon</span>
-            <span class="store-name">Google Play</span>
+          <a class="store-badge-play" id="store-link-google-play"
+             href="https://play.google.com/store/apps/details?id=app.replit.rtkkit"
+             target="_blank" rel="noopener noreferrer">
+            <img class="store-badge-play-img"
+                 src="assets/google-play-badge.png"
+                 width="646" height="250"
+                 alt="Get it on Google Play">
           </a>
           <a class="store-badge" id="store-link-app-store" href="#coming-soon">
             <span class="store-kicker">Coming soon</span>
             <span class="store-name">App Store</span>
           </a>
         </div>
-        <p id="coming-soon" class="coming-note">The Google Play and App Store listings are on the way.</p>
+        <p id="coming-soon" class="coming-note">Available now on Google Play (US). The App Store listing is on the way.</p>
         <p class="guard prose"><a href="#disclaimer">Not a survey. Not machine control.</a></p>
       </div>
     </div>
