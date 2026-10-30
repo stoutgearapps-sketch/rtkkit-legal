@@ -192,7 +192,25 @@ a { color: var(--orange-soft); }
 .store-badges {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.75rem;
+}
+
+/* Official Google Play badge — do not recolor, crop, or restyle the artwork. */
+.store-badge-play {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  text-decoration: none;
+  /* Clear space ≈ 1/4 of badge height per Google badge guidelines */
+  margin: 0.4rem 0;
+}
+
+.store-badge-play-img {
+  display: block;
+  /* Display height ≥ 40px (guideline minimum is 28px); artwork includes padding */
+  height: 3.5rem;
+  width: auto;
 }
 
 .store-badge {

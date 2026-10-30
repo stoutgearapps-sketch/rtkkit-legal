@@ -19,6 +19,8 @@ The header mark and favicon use the Stone app icon (`assets/app-icon.png`, from 
 
 ## Store badges
 
-In `index.html`, search for `STORE LINKS`. Set the `href` on `#store-link-app-store` and `#store-link-google-play` when the listings are live. Both currently point at `#coming-soon` on this page.
+Google Play is live (US). `#store-link-google-play` uses the official "Get it on Google Play" badge (`assets/google-play-badge.png`, from [Google's badge guidelines](https://play.google.com/intl/en_us/badges/)) and links to `https://play.google.com/store/apps/details?id=app.replit.rtkkit`.
+
+`#store-link-app-store` still points at `#coming-soon` until the App Store listing is live. Then set its `href` to the App Store URL.
 
 The footer logo is `assets/stout-gear-logo.png`, the transparent Stout Gear mark, shown light on the dark background with a CSS filter.
