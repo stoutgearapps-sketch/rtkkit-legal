@@ -82,12 +82,25 @@
       <div class="hero-actions">
         <!--
           STORE LINKS
+          App Store is live: https://apps.apple.com/us/app/rtk-kit/id6760628726
+            (seller Anthony Stout, bundle app.replit.rtkkit)
+          Official badge asset: assets/app-store-badge.svg
+            (preferred black "Download on the App Store" badge from
+             https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us)
+          Place the App Store badge first when another store badge is shown.
           Google Play is live (US): https://play.google.com/store/apps/details?id=app.replit.rtkkit
           Official badge asset: assets/google-play-badge.png
             (from https://play.google.com/intl/en_us/badges/ — "Get it on Google Play")
-          App Store still pending review — keep #store-link-app-store on #coming-soon until live.
         -->
         <div class="store-badges">
+          <a class="store-badge-app-store" id="store-link-app-store"
+             href="https://apps.apple.com/us/app/rtk-kit/id6760628726"
+             target="_blank" rel="noopener noreferrer">
+            <img class="store-badge-app-store-img"
+                 src="assets/app-store-badge.svg"
+                 width="120" height="40"
+                 alt="Download on the App Store">
+          </a>
           <a class="store-badge-play" id="store-link-google-play"
              href="https://play.google.com/store/apps/details?id=app.replit.rtkkit"
              target="_blank" rel="noopener noreferrer">
@@ -96,12 +109,8 @@
                  width="646" height="250"
                  alt="Get it on Google Play">
           </a>
-          <a class="store-badge" id="store-link-app-store" href="#coming-soon">
-            <span class="store-kicker">Coming soon</span>
-            <span class="store-name">App Store</span>
-          </a>
         </div>
-        <p id="coming-soon" class="coming-note">Available now on Google Play (US). The App Store listing is on the way.</p>
+        <p class="store-note">Available now on the App Store and on Google Play (US).</p>
         <p class="guard prose"><a href="#disclaimer">Not a survey. Not machine control.</a></p>
       </div>
     </div>
@@ -448,6 +457,7 @@
     <img class="footer-logo" src="assets/stout-gear-logo.png" width="678" height="240" alt="Stout Gear">
     <p class="footer-copy">&copy; 2026 Stout Gear LLC</p>
     <p class="footer-copy">Google Play and the Google Play logo are trademarks of Google LLC.</p>
+    <p class="footer-copy">Apple, the Apple logo, and App Store are trademarks of Apple Inc., registered in the U.S. and other countries.</p>
     <nav class="footer-nav" aria-label="Footer">
       <a href="privacy/">Privacy</a>
       <a href="terms/">Terms</a>
